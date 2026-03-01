@@ -1,0 +1,54 @@
+body{
+  background:#0f0f0f;
+  font-family:Arial;
+  color:white;
+}
+
+.video-card{
+  display:flex;
+  margin:15px;
+}
+
+.thumbnail{
+  display:block;
+  width:170px;
+  height:95px;
+  border-radius:8px;
+
+}
+
+.video-details{
+  margin-left:12px;
+}
+
+.title{
+  font-size:16px;
+  font-weight:bold;
+}
+
+.channel{
+  display:flex;
+  gap:10px;
+}
+.stats{
+  display:inline-block;
+}
+
+.channel, .stats{
+  font-size:14px;
+  color:#aaa;
+}
+.thumb-container{
+  position:relative;
+  width:fit-content;
+}
+.timeElement{
+  position:absolute;
+  bottom:5px;
+  right:5px;
+  background-color: rgba(0,0,0,0.8);
+  color:white;
+  padding: 2px 4px;
+  font-size:12px;
+  border-radius:4px;
+}
